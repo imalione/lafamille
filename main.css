@@ -3,15 +3,19 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 150px;
+background: #F7F7F7;
+  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 }
 
 h1 {
   font-size: 4em;
   font-style: italic;
   font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 0px;
   letter-spacing: 5px;
+  background-color: #FFFFFFFFF;
+  color: DarkSeaGreen;
 }
 
 .inputSection {
