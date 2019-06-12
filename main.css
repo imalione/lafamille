@@ -1,0 +1,33 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+}
+
+h1 {
+  font-size: 4em;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+}
+
+.inputSection {
+  margin: 60px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 20px;
+}
+
+.chooseOption {
+  margin-top: 15px;
+}
